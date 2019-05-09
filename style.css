@@ -1,0 +1,65 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+#name{
+   margin-top:10px;  
+   color:rgb(255, 139, 158);
+
+}
+header{
+    display: flex;
+}
+.nav a{
+   text-decoration: none;
+
+    font-size: 18px;
+    color: black;
+}
+.nav ul{
+  display: flex;
+  
+    
+}
+.nav li{
+    list-style-type: none;
+    padding-left: 50px;
+    margin-left: 110px;
+    
+}
+.img{
+  border-bottom:5px solid gray; 
+    align-items: center;
+    height: 10em;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}  
+.details{
+    margin-left: 10px;
+   
+}
+.lorem{
+    margin-top: 200px;
+  
+}
+button{
+    border: none;
+    padding: 5px 15px;
+    background-color:palevioletred;
+    color: aliceblue;
+    word-spacing: 4px;
+}
+footer{
+    color:black;
+}
+.fa-star{
+    color:rgb(238, 238, 91);
+}
+.lorem a{
+    text-decoration: none;
+}
